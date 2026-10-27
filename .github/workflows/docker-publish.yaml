@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "homewoek_react_001/**"
-      - ".github/workflows/docker-publish.yaml"
+    # paths:
+    #   - "homewoek_react_001/**"
+    #   - ".github/workflows/docker-publish.yaml"
 
   workflow_dispatch:
 
