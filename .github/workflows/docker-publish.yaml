@@ -36,8 +36,10 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v7
         with:
-          context: ./homewoek_react_001
-          file: ./homewoek_react_001/Dockerfile
+          # context: ./homewoek_react_001
+          # file: ./homewoek_react_001/Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
